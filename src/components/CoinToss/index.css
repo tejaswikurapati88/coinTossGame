@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  color: #a35200;
+}
+.para {
+  color: #334155;
+  font-weight: bold;
+}
+.img {
+  height: 150px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: 0px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.results {
+  color: #475569;
+}
+.num-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 40%;
+  font-weight: bold;
+}
+@media (max-width: 576px){
+  .container{
+    width: 80%;
+    border-radius: 15px;
+    height: 80%;
+  }
+  .main-heading{
+    font-size: 25px;
+  }
+  .para{
+    margin-top: 5px;
+  }
+  .img{
+    height: 100px;
+  }
+  .num-cont{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
